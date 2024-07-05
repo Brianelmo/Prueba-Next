@@ -12,7 +12,7 @@ Este es un proyecto de ejemplo utilizando Next.js con TypeScript. Incluye un for
 1. Clona el repositorio:
 
    ```bash
-   git clone (https://github.com/Brianelmo/Prueba-Next)
+   git clone https://github.com/Brianelmo/Prueba-Next
 
 2. Navega hacia el proyecto
 
