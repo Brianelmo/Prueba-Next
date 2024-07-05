@@ -23,7 +23,7 @@ Este es un proyecto de ejemplo utilizando Next.js con TypeScript. Incluye un for
     ```bash
    npm install
 
-4.Incia el proyecto en local
+4.Inicia el proyecto en local
   ```bash
    npm run dev 
   
