@@ -1,0 +1,84 @@
+.form {
+    display: grid;
+    gap: 2rem;
+}
+
+.inputsDiv{
+    display: grid;
+    gap: 1rem;
+} @media(max-width:768px){
+    .inputsDiv{
+        align-items: center;
+    }
+}
+
+.containerInput {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+} 
+
+.label{
+font-weight: 600;
+} 
+
+.input{
+    padding: 1rem;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 10px;
+    color: gray;
+} @media(max-width:768px){
+    .input{
+        max-width: 450px;
+    } 
+} @media(max-width:460px){
+    .input{
+        max-width: 300px;
+    }
+}
+
+.button {
+    display:flex;
+    justify-content: center;
+    max-width: 200px;
+    padding: 1rem 0.2rem; 
+    border-radius: 10px;
+    border: none;
+    background-color: #2563EB;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all ease .2s;
+} 
+
+.error{
+    font-size: 1rem;
+    color: white;
+    background-color: red;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    margin: 0;
+} @media(max-width:768px){
+    .error{
+        max-width: 450px;
+    } 
+} @media(max-width:460px){
+    .error{
+        max-width: 300px;
+    }
+}
+
+.buttonSend{
+    display:flex;
+    justify-content: center;
+    max-width: 200px;
+    padding: 1rem 0.2rem; 
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all ease .2s;
+    background-color: green;
+}

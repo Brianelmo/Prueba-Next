@@ -1,0 +1,17 @@
+.interestIcons{
+    display: inline-flex;
+    gap: 0.5rem; 
+    align-items: center;
+    border-radius: 99999px;
+    background-color: #F4F4F5;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+}
+
+.interesDiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    color: black;
+} 

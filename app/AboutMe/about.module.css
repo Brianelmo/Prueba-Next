@@ -1,0 +1,14 @@
+.aboutSection {
+    display: grid;
+} 
+
+
+.aboutTitle{
+    font-weight: 600;
+    margin: 0;
+} 
+
+.aboutText {
+    color: gray;
+    font-weight: 300;
+}
